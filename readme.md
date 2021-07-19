@@ -1,4 +1,4 @@
-# Cloudflare Worker for Google Fonts Masking and Caching
+# Cloudflare Worker for Google Fonts CDN Masking and Caching
 
 This worker can be used to mask google font CDN with your own domain, so that you don't have to call or preconnect to google fonts from your html. Also, we are using worker cache to store the responses, so that we can make the calls faster.
 
